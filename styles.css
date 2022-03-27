@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background-color: bisque;
+}
+.visiting-main{
+    display: flex;
+    padding: 50px 0;
+}
+.visiting-left{
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 800px;
+}
+.visiting-left-icon{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: rgb(75, 73, 73);
+}
+.visiting-left-icon:hover{
+    color: rgb(12, 8, 8);
+    cursor: pointer;
+}
+.visiting-left-parag{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.visiting-right{
+    background-color: white;
+    height: 800px;
+}
+.visiting-right-nav{
+    padding-top: 40px;
+    margin-left: 460px;
+}
+.visiting-right-menu{
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+}
+.visiting-right-link,
+.visiting-right-link2{
+    color: rgb(75, 73, 73);
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.visiting-right-link2{
+    color: rgb(44, 42, 42);
+}
+.visiting-right-link:hover{
+    color: rgb(3, 1, 1);
+}
+.visiting-text{
+    margin: 150px 70px;
+    position: relative;
+}
+.visiting-right-top-text > p{
+    font-size: 72px;
+}
+.line{
+    border-bottom: 5px solid black;
+    width: 100px;
+    position: absolute;
+    bottom: 400px;
+    right: 260px;
+}
+.visiting-right-top-text > h5{
+    font-size: 24px;
+    padding: 30px 0;
+}
+.visiting-right-bottom {
+    display: flex;
+}
+.visiting-right-bottom-video{
+    background-image: url(./img/preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 80px 60px 80px 130px;
+}
+.video::after{
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    border-top: 10px solid transparent;
+    border-left: 15px solid black;
+    border-bottom: 10px solid transparent;
+}
+.video{
+    background-color: rgba(240, 248, 255, 0.774);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    position: relative;
+}
+.visiting-right-bottom-text{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    color: rgb(78, 76, 76);
+}
+.visiting-right-bottom-text > h4{
+    margin-right: 10px;
+}
+.visiting-right-bottom-parag{
+    width: 320px;
+    margin: 0 60px;
+    color: rgb(88, 88, 88);
+    font-size: 24px;
+    line-height: 35px;
+}
